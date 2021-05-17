@@ -1,5 +1,4 @@
-def get_sum(one: str, two: str):
-    delimiter = '&'
+def get_sum(one: str, two: str, delimiter='&'):
     one = str(one).capitalize()
     two = str(two).capitalize()
     result = one + ' ' + delimiter + ' ' + two
